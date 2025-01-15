@@ -1,6 +1,25 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap');
 
+/* Global Styles */
+
+.navbar {
+    background-color: #f7f9fb !important;
+    color: #787864;
+}
+
+.navbar .nav-link {
+    color: #787864;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
