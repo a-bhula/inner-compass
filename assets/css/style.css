@@ -1,0 +1,10 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
