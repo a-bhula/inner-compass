@@ -40,7 +40,8 @@ h3 {
 .hero-section .btn {
     background-color: #787864;
     border-color: #787864;
-    color: #fff; /* Optional: to ensure the text color is white */
+    color: #fff;
+    /* Optional: to ensure the text color is white */
 }
 
 /* Header Styles */
@@ -77,21 +78,17 @@ header h2 {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 4rem; /* Adjust the size for smaller screens */
+        font-size: 4rem;
+        /* Adjust the size for smaller screens */
     }
 
     header h2 {
-        font-size: 2rem; /* Adjust the size for smaller screens */
+        font-size: 2rem;
+        /* Adjust the size for smaller screens */
     }
 
     .hero-section {
-        padding: 2rem; /* Add padding for smaller screens */
+        padding: 2rem;
+        /* Add padding for smaller screens */
     }
 }
-
-
-
-
-
-
-
