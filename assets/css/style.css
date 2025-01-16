@@ -13,6 +13,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar .navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+}
+
 .navbar .nav-link {
     color: #787864;
 }
