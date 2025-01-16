@@ -27,3 +27,10 @@ body {
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
+
+.hero-section {
+    height: 100vh;
+    background: url('../images/hero.png') no-repeat center center;
+    background-size: cover;
+    /* color: #fff; is white text*/
+}
