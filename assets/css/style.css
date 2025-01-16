@@ -7,10 +7,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#mental-health,
+#tips,
+#contact {
+    background-color: #F5F5DC;
+}
+
+nav,
+#common-issues,
+#testimonials,
+footer {
+    background-color: #edd4b9 !important;
+}
+
 
 /* Navbar Styles */
 .navbar {
-    background-color: #f7f9fb !important;
+    background-color: #edd4b9 !important;
     color: #333333;
     font-family: 'Poppins', sans-serif;
 }
@@ -87,11 +100,7 @@ header h2 {
     height: auto;
 }
 
-/* Testimonial section */
-#testimonials {
-    background-color: transparent !important; /* Remove background color */
-}
-
+/* Testimonials */
 #testimonials h3 {
     font-family: 'Abril Fatface', cursive;
     font-size: 2rem; /* Adjust as needed */
