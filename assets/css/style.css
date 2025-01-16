@@ -7,6 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* Navbar Styles */
 .navbar {
     background-color: #f7f9fb !important;
@@ -29,6 +30,12 @@ body {
 .navbar .nav-link.active {
     font-weight: bold;
 }
+
+.nav-link:hover {
+    color: #333333 !important;
+    font-weight: bold;
+}
+
 
 /* Typography */
 h3 {
@@ -119,8 +126,8 @@ header h2 {
 }
 
 .footer a:hover {
-    color: #555555;
-    /* Change color on hover */
+        color: #333333 !important;
+        font-weight: bold; /* Change color on hover */
 }
 
 .footer p {
