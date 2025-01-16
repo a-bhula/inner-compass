@@ -88,7 +88,8 @@ header h2 {
 }
 
 .footer a:hover {
-    color: #555555; /* Change color on hover */
+    color: #555555;
+    /* Change color on hover */
 }
 
 .footer p {
@@ -96,7 +97,7 @@ header h2 {
 }
 
 .footer i {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
 }
 
 /* Responsive Adjustments */
