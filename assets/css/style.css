@@ -3,6 +3,7 @@
 
 /* Global Styles */
 body {
+    padding-top: 56px; /* Adjust based on the height of the navbar */
     font-family: 'Poppins', sans-serif;
 }
 
