@@ -68,6 +68,40 @@ h3 {
     /* Optional: to ensure the text color is white */
 }
 
+/* Modal Styles */
+.modal-content {
+    background-color: #ebd4bb; /* Light pastel background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem; /* Add padding */
+}
+
+.modal-header {
+    border-bottom: none; /* Remove default border */
+}
+
+.modal-footer {
+    border-top: none; /* Remove default border */
+}
+
+.motivational-text {
+    font-family: 'Abril Fatface', cursive; /* Use a different font family */
+    font-size: 1.5rem; /* Increase font size */
+    color: #333333; /* Text color */
+    margin-top: 1rem;
+}
+
+/* Modal Custom Close Button */
+.custom-close-btn {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    border: none; /* Remove border */
+}
+
+.custom-close-btn:hover,
+.custom-close-btn:focus {
+    background-color: #333333; /* Darker shade on hover/focus */
+}
+
 /* Header Styles */
 header h1 {
     font-family: 'Abril Fatface', cursive;
@@ -183,19 +217,33 @@ header h2 {
     .hero-section {
         padding: 2rem;
         /* Add padding for smaller screens */
-    }
+    }  
+}
 
-    @media (min-width: 576px) and (max-width: 768px) {
+ @media (min-width: 576px) and (max-width: 768px) {
         .section-img {
             width: 50%; /* Adjust as needed */
             height: auto;
         }
     }
-}
 
 @media (max-width: 574px) {
     .container {
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media (max-width: 445px) {
+    .hero-section .btn {
+        font-size: 0.875rem; /* Adjust font size */
+        padding: 0.5rem 1rem; /* Adjust padding */
+    }
+}
+
+@media (max-width: 335px) {
+    .hero-section .btn {
+        font-size: 0.75rem; /* Further adjust font size */
+        padding: 0.4rem 0.8rem; /* Further adjust padding */
     }
 }
