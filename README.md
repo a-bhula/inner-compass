@@ -2,7 +2,9 @@
 
 Mental Wellness Website is a platform designed to provide individuals with information, tips, and resources to support their mental health. The website includes sections for practical tips, common mental health issues, user testimonials, and a contact form, fostering a supportive and informative environment.
 
+LINK URL
 
+ADD SCREENSHOTS
 
 ---
 
